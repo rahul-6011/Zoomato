@@ -1,7 +1,6 @@
 import React from "react";
 import { diningout } from "../../../data/dining";
 import Collection from "../../common/collection";
-import Delivery from "../delivery";
 import ExploreSection from "../exploreSection";
 import Filters from "../filters";
 import "./diningout.css";
