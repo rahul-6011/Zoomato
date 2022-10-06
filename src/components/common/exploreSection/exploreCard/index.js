@@ -36,7 +36,7 @@ const ExploreCard = ({restaurant}) => {
           {cuisines.length && <div className='res-cuisine'>
             {
               cuisines.map((item,i)=>{
-                return <span className='res-cuisine-tag'>{item}{i!=cuisines.length-1 && ","}</span>
+                return <span className='res-cuisine-tag'>{item}{i!==cuisines.length-1 && ","}</span>
               })
             }
           </div>
